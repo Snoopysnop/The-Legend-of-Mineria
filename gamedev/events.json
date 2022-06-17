@@ -1,0 +1,996 @@
+{
+"0": {
+    "title": "Vous vous réveillez brusquement dans une taverne auprès de votre grog de la veille\nTavernier - \"Debout soûlard ! On n'accueille pas les trolls ici !\"",
+    "image":"http://dndspeak.com/wp-content/uploads/2018/08/Tavern.jpg",
+    "choices": [
+        {"name": "Un nouveau départ", "value": "Vous décidez de reprendre votre vie en main et partez à la recherche d'un but à la vie.", "next":"1", "Reaction":"1️⃣", "timer": 15},
+        {"name": "Grand Châtelet", "value": "Vous ne vous sentez pas prêt à affronter la lumière du jour et vous vous rendormez.", "next":"2", "Reaction":"2️⃣", "timer": 45}
+        ]},
+        
+"1": {
+    "title": "Vous peinez à bouger. En sortant, vous renversez votre boisson sur des villageois. Vexés, ils appellent le géôlier qui vous emmène avec lui.",
+    "image":"https://i.pinimg.com/originals/e9/c9/bc/e9c9bc6f16e85d7540942fe8d8cebf7f.jpg",
+    "choices": [
+        {"name": "Hotel cinq étoiles","value": "Vous vous rendormez sur le sol de votre cellule", "next":"2", "Reaction":"1️⃣", "timer": 30}
+        ]},
+        
+"2": {
+    "title": "Vous vous réveillez avec un mal de tête plus puissant qu'un coup de burin de géant. A votre surprise vous êtes dans une cellule !",
+    "image": "https://cdnb.artstation.com/p/assets/images/images/001/171/101/large/dennis-glowacki-cove-ship.jpg?1441517549",
+    "choices": [
+        {"name": "Un homme bizarre", "value": "Cet homme au fond de la pièce semble amoché, vous décidez d'aller voir s'il va bien.", "next":"3", "Reaction":"1️⃣", "timer": 30},
+        {"name": "Une longue attente","value": "Vous comptez votre nombre de doigts, seulement 7 sur chaque main ?", "next":"4", "Reaction":"2️⃣", "timer": 30}
+        ]},
+        
+"3": {
+    "title": "L'homme bizarre sympatise et commence à vous raconter une histoire:\n-\"Un beau matin de printemps, sur un champ paisible de brebis, une grosse boule de feu s'écrasa causant un cratère gros comme 50 vaches. Cette pierre, suite au choc, se fissura en trois morceaux répartis sur plusieurs kilomètres de distance. Ces bouts de météorite renfermaient une étrange énergie qui attira la curiosité des druides. Tandis que plusieurs hommes s'essayaient à la tâche sans succès, seul trois hommes au caractère bien fondé parvinrent à récolter les morceaux. Le premier, aux muscles inversement promotionnel à sa cervelle, força comme un troll et parvint à déterrer le fragment afin d'exploiter sa puissance. Ainsi naquit la pierre de la force.. Le second, moins costaud mais bien plus sage, usa de stratagèmes bien fondés afin d'extraire la pierre de sa prison de terre. Une lueur bleu illumina la nuit noire plongeant le druide au cœur d'un lac de lumière. La pierre de l'esprit vu le jour. Le dernier, qui n'avait rien de spécial, se battu nuit et jours, protégeant la pierre de quiconque voudrait s'en emparer, afin de préserver sa beauté et sa pureté. La pierre sortit d'elle-même des décombres, enveloppant le druide d'une lumière orange semblable à un lever de soleil. C'est ainsi que la pierre du courage fit son apparition.\"",
+    "image": "https://i.pinimg.com/736x/69/f3/aa/69f3aaf2ca24b0ca5a2953d4fe8dad6c--gladiators-rage.jpg",
+    "choices": [{"name": "Suite", "value": "Histoire", "next":"3bis", "Reaction":"1️⃣", "timer": 60}
+        ]},
+"3bis": {
+    "title": "\"Bien que convoitées, les pierres restaient innatteignables tant la puissance conférée aux druides les rendait invincibles. Avec cette puissance, les druides décidèrent de créer trois royaumes régis sur la propriété des pierres. A l'issus d'interminables discussions, les druides parvinrent à cohabiter dans le pays et à faire régner l'ordre au sein des trois royaumes. Mais ce n'était sans compter sur la nature insatisfaisable des humains. Certains trouvaient ces pierres bien trop puissantes ce qui, selon eux créa une inégalité dans le royaume. Ceci divisa les trois royaumes les plongeant dans le chaos. Les druides comprirent qu'une paix serait impossible entre tous les hommes. Impuissants devant une telle fatalité, ils s'exilèrent, emportant avec eux les pierres, leurs pouvoirs et leurs secrets laissant dans leurs sillage un royaume à feu et à sang. Heureusement, aujourd'hui, des centenaires après, personne ne sait réellement où les trouver ou même comment les utiliser, cela a généré une perte d'intérêt pour les pierres mystiques. Mais enfin tu n'es pas obligé de croire un vieux fous dans le fond d'une prison. Ce n'est qu'une légende après tout...\"",
+    "image": "https://i.pinimg.com/736x/69/f3/aa/69f3aaf2ca24b0ca5a2953d4fe8dad6c--gladiators-rage.jpg",
+    "choices": [{"name": "Suite", "value": "Histoire", "next":"5", "Reaction":"1️⃣", "timer": 60}
+        ]},
+
+"4": {
+    "title": "Un homme bizarre au fond de la piece s'approche de vous et vous raconte une histoire:\n-\"Un beau matin de printemps, sur un champ paisible de brebis, une grosse boule de feu s'écrasa causant un cratère gros comme 50 vaches. Cette pierre, suite au choc, se fissura en trois morceaux, appelés pierrites, répartis sur plusieurs kilomètres de distance. Ces bouts de météorite renfermaient une étrange énergie qui attira la curiosité des druides. Tandis que plusieurs hommes s'essayaient à la tâche sans succès, seul trois hommes au caractère bien fondé parvinrent à récolter les morceaux. Le premier, aux muscles inversement promotionnel à sa cervelle, força comme un troll et parvint à déterrer le fragment afin d'exploiter sa puissance. Ainsi naquit la pierre de la force.. Le second, moins costaud mais bien plus sage, usa de stratagèmes bien fondés afin d'extraire la pierre de sa prison de terre. Une lueur bleu illumina la nuit noire plongeant le druide au cœur d'un lac de lumière. La pierre de l'esprit vu le jour. Le dernier, qui n'avait rien de spécial, se battu nuit et jours, protégeant la pierre de quiconque voudrait s'en emparer, afin de préserver sa beauté et sa pureté. La pierre sortit d'elle-même des décombres, enveloppant le druide d'une lumière orange semblable à un lever de soleil. C'est ainsi que la pierre du courage fit son apparition.\"",
+    "image": "https://i.pinimg.com/736x/69/f3/aa/69f3aaf2ca24b0ca5a2953d4fe8dad6c--gladiators-rage.jpg",
+    "choices": [{"name": "Suite", "value": "Histoire", "next":"3bis", "Reaction":"1️⃣", "timer": 60}
+        ]},
+
+"5": {
+    "title": "Après cette attente auprès de ce gentlamen, le geôlier vient vous sortir d'ici à coup de trique.",
+    "image": "https://thumbs.dreamstime.com/b/stairs-dungeon-fantasy-candelabras-bats-64430563.jpg",
+    "choices": [
+        {"name": "Un nouveau départ", "value": "Vous décidez de reprendre votre vie en main et partez à la recherche d'un but à la vie.", "next":"5bis", "Reaction":"1️⃣", "timer": 30}
+        ]},
+
+
+"5bis": {
+    "title": "A la sortie de la prison, vous tombez sur une affiche",
+    "image": "https://i.pinimg.com/736x/07/42/ce/0742cea5add1a6f432da0753505cf99c.jpg",
+    "choices": [
+        {"name": "Un nouveau départ", "value": "Vous décidez de reprendre votre vie en main et partez à la recherche d'un but à la vie.", "next":"6", "Reaction":"1️⃣", "timer": 120}
+        ]},
+
+
+
+"6": {
+    "title": "Vous vous rendez dans la cours du château à sixte, quand le soleil est au plus haut dans le ciel.\nUne fois sur la place, une montage de muscle mal éduquée vous explique la suite:\n-Guillaume : \"Bande de rats d'égout, si vous êtes ici c'est que vous êtes prêts à perdre ce qui fait de vous des hommes et êtes prêts à devenir de vrais guerriers invincibles ayant pour but de tout donner pour leur pays ! Alors prenez l'arme qui vous sied le mieux ! Attention, on ne fait pas de changement, ce choix est définitif !\"",
+    "image": "https://i.pinimg.com/originals/45/69/8c/45698cac624bda15e344ab3276f36050.jpg",
+    "choices": [
+        {"name": "Guerrier", "value": "Vous choisissez le glaive", "next":"7", "Reaction":"🗡", "timer": 30},
+        {"name": "Archer", "value": "Vous choisissez l'arc", "next":"7", "Reaction":"🏹", "timer": 30},
+        {"name": "Mage", "value": "Vous choisissez baton magique", "next":"7", "Reaction":"🪄", "timer": 30}
+        ]},
+
+"7": {
+    "title": "Vous combattez contre un gobelin !",
+    "image": "https://i.pinimg.com/originals/e2/bb/03/e2bb030be6ae3f5bb2530990754b2f12.jpg",
+    "rewards": {"xp":51, "gold":3, "loots":{"Item.poissonCru":100, "Item.painChaud": 100}},
+    "mobs": [{"name":"Gobelin", "max_hp": 60, "hp": 60, "attack": 10, "defense": 1, "initiative": 0, "lvl": 1}],
+    "next": "8"
+    },
+
+"8": {
+    "title": "-Guillaume : \"Alors je vois qu'on a un chanceux! Un rat de niveau supérieur ! Tu as gagné la chance de te battre pour ton roi. Alors va et  cherche les pierres afin de sauver notre royaume. Je te conseil de chercher des informations à propos de la pière de notre royaume: la pierre de l'Esprit !\"",
+    "image": "https://i.pinimg.com/originals/9b/c8/fd/9bc8fde22ed3ba2e8f3ef124917f28ca.jpg",
+    "specificities":["respawn_point", "healing_point"],
+    "choices": [
+        {"name": "Un début laborieu", "value": "Un papi semble avoir des problèmes avec son bétail...", "next": "9", "Reaction":"1️⃣", "timer": 45},
+        {"name": "Pas le temps pour les faibles", "value": "Vous esquivez le regard du vieil homme", "next": "9", "Reaction":"2️⃣", "timer": 45}
+        ]},
+
+"9": {
+    "title": "Le vieux vous argippe le bras d'une manière agressive : \n ???-Bonsoir mon enfant, ici on m'appelle Papi Graubidon, mes poules se sont enfui à cause d'un étrange phénomène... Il faut dire que la famine de notre à amaigris les effectifs de soldats, tu devrais faire attention!\n Vous entrez dans le poulailler et sentez une ordeur étrange.. pas de toute c'est un gobelin! Vous cherchez là où il se cache :",
+    "image": "https://i.pinimg.com/originals/67/37/48/673748db691f7c7a1530f10439f1c728.jpg",
+    "choices": [
+        {"name": "Peut être sous cette potiche ?", "value": "Un vieux vase illustrant un jeune homme tennant 3 pierres", "next":"9a", "Reaction":"1️⃣"},
+        {"name": "Derrière ce grouppe de poule ?", "value": "Vous prenez les poules à pleines mains..", "next":"9b", "Reaction":"2️⃣"},
+        {"name": "Sous la paille?", "value": "Pas vraiment une cachette de gobelin", "next":"10", "Reaction":"3️⃣"}
+    ]
+    },
+
+"9a": {
+    "title": "",
+    "image": "https://madparis.fr/local/cache-responsive/cache-360/c647a247382068b0954327875bb901c5.jpg?1626040269",
+    "choices":[
+        {"name": "Vous soulevez le vase mais rien. L'odeur s'intensifie... ", "value": "Vous décidez de réessayer", "next":"9", "Reaction":"1️⃣"}
+    ]
+},
+ 
+"9b": {
+    "title": "",
+    "image": "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/a/a3/Chicken.png/revision/latest/scale-to-width-down/1267?cb=20190806223502",
+    "choices":[
+        {"name": "Cot cot ! Seulement des coups de bec mais pas de trace de gobelin ", "value": "Vous décidez de réessayer", "next":"9", "Reaction":"1️⃣"}
+    ]
+},
+
+"10": {
+    "title": "Bwaaahhh le gobelin vous saute dessus ! Vous combatez contre le gobelin du poulailler !",
+    "image": "https://i.pinimg.com/originals/e2/bb/03/e2bb030be6ae3f5bb2530990754b2f12.jpg",
+    "rewards": {"xp":80, "gold":5},
+    "mobs": [
+        {"name":"CotCotelin", "max_hp": 175, "hp": 175, "attack":15, "defense": 4, "initiative": 20, "lvl": 1}
+    ],
+    "next":"10a"
+    },
+
+"10a": {
+    "title": "Vous avez battu le Cotcotelin! Le calme est rétablit dans le poulailler ! Une fois les poules en sécurité le vieille homme vous remercie: \nPapi Graubidon - Merci mon enfant! Je savais que quelque chose ne tournais pas rond... Si seulement le royaume de la force n'avais pas fais ce massacre 20 ans plus tot... \"",
+    "image": "https://i.pinimg.com/originals/67/37/48/673748db691f7c7a1530f10439f1c728.jpg",
+    "choices":[
+        {"name": "Suite de l'aventure ", "value": "Vous vous dirigez vers la taverne afin de trouver des informations", "next":"11res", "Reaction":"1️⃣", "timer": 180}
+    ]
+},
+
+"11res": {
+    "title": "Vous croisez une fleur qui scintille et émet une douce lumière bleu. S'arrêter 2 minutes pour se reposer et observer la fleur ?",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "choices": [
+        {"name": "S'arrêter 2 minutes", "value": "La mort est le repos des pauvres. Un vrai guerrier sait quand il doit s'arrêter.", "next": "res", "Reaction":"1️⃣", "timer": 120}
+    ]
+},
+
+"res": {
+    "title": "Vous sentez vos forces qui reviennent en vous...",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "specificities" : ["respawn_point", "healing_point"],
+    "choices": [
+        {"name": "Debout Soldat", "value": "Après cette aventure vous retournez à la taverne.", "next": "11", "Reaction":"1️⃣", "timer": 15}
+    ]
+},
+
+
+
+"11": {
+    "title": " Vous voici à la taverne, que décider de faire ?",
+    "image":"https://images-ext-1.discordapp.net/external/Jql2Wl4S0N1iUfjYRbEKefIOTa9QgNgopmcvrlrc14w/https/pre00.deviantart.net/cdd8/th/pre/f/2013/057/5/2/the_tavern_by_thd777-d5w9y6s.jpg?width=796&height=498",
+    "choices": [
+        {"name": "Aller au comptoire", "value": "Vous vous dirigez vers le comptoire", "next":"comptoire", "Reaction":"1️⃣"},
+        {"name": "Ca filoche", "value": "Il est déjà tard et décidez de partir de la taverne afin de chercher des informations sur la pierre de l'esprit...", "next":"city", "Reaction":"2️⃣", "timer": 120},
+        {
+        "11aFin":
+            "None",
+        "foretdrop":
+            {"name": "Une étrange potion - Terminé", "value": "Vous retournez ElleFeux pour lui donner la racine d'Adis", "next":"11aFin", "Reaction":"3️⃣"},
+        "default":
+            {"name": "Une étrange potion", "value": "Un elfe est seul au coin de la taverne, il semble vous faire comprendre qu'il aurait besoin d'aide.", "next":"11a", "Reaction":"3️⃣"}
+        },
+
+        {
+        "11c2":
+            "None",
+        "default":
+            {"name": "Vol en règle", "value": "Un gang de gnomes semble voler des pièces d'or à la sortie de la taverne, êtes vous d'humeur à les défier ?", "next":"11c", "Reaction":"4️⃣"}
+        },
+
+        {
+        "PFC":
+            "None",
+        "default":
+            {"name": "Un air de déjà vu", "value": "Vous reconnaissez Morak, après tout il vous avait bien payé la dernière fois, pourquoi pas lui rendre service de nouveau ?", "next":"11b", "Reaction":"5️⃣"}
+        }
+    ]
+},
+
+"comptoire":{
+    "title_special":"Vous êtes au comptoire \ncharacter.getHp() / character.getMaxHp() ❤️ \ncharacter.getGold() 🪙",
+    "image":"https://randomrollradio.com/RRRSwiki/_media/locations/thesilversmith.jpg",
+    "choices" : [
+        {"name": "Commander une bière", "value": "Vous commandez une bière 3🪙", "next":"beer", "Reaction":"🍺", "required": {"gold":3}},
+        {"name": "Demander à se reposer dans un chambre", "value": "Vous demandez une chambre 10🪙", "next":"rest", "Reaction":"🛏️", "required": {"gold":10}},
+        {"name": "Partir du comptoir", "value": "Vous partez du comptoire", "next":"11", "Reaction":"↪️"}
+    ]
+
+},
+
+"beer":{
+    "title":"Vous prenez une bière",
+    "image":"https://randomrollradio.com/RRRSwiki/_media/locations/thesilversmith.jpg",
+    "specificities" : [{"hp": 50}, {"gold":-3}],
+    "choices" : [{"name": "Boire la bière", "value": "Vous buvez votre bière", "next":"comptoire", "Reaction":"🍺", "timer": 60}]
+},
+
+"rest":{
+    "title":"Vous arrivez dans la chambre",
+    "image":"https://i.pinimg.com/originals/c6/a7/fd/c6a7fd7458d40fe3fcf5936010e1bee0.jpg",
+    "specificities" : ["healing_point", {"gold":-10}],
+    "choices" : [{"name": "Se reposer", "value": "Vous vous reposez", "next":"11", "Reaction":"🛏️", "timer": 180}]
+},
+
+"11a": {
+    "title": "ElleFeux - Bonsoir guerrier! Il me manque une racine d'Adis pour compléter ma potion. Peux-tu te rendre dans la forêt des arbres volants ? Une mince a faire pour un guerrier aussi valereux que toi !",
+    "image": "https://tablequest.fr/wp-content/uploads/elementor/thumbs/lieux_La_Taverne_du_Chant_de_l_Elfe-pbjzrn5meb3f9dx8llam2eih09ic8qb3cnnc1u1e68.png",
+    "choices": [
+        {"name": "En route pour la forêt ", "value": "Ca promet un peux d'argent et d'exprérience!", "next":"foret", "Reaction":"1️⃣"},
+        {"name": "Pas le temps", "value": "Vous préférez ne pas aider cet elfe..", "next":"11", "Reaction":"2️⃣"}]
+    },
+
+"11aFin": {
+    "rewards": {"xp":50, "gold":20},
+    "title": "ElleFeux - Bonsoir guerrier! Merci de m'avoir rammené la racine d'Adis, je vais pouvoir pour compléter ma potion.",
+    "image": "https://tablequest.fr/wp-content/uploads/elementor/thumbs/lieux_La_Taverne_du_Chant_de_l_Elfe-pbjzrn5meb3f9dx8llam2eih09ic8qb3cnnc1u1e68.png",
+
+    "choices": [
+        {"name": "Quitter ElleFeux", "value": "Vous dîtes au revoir à ElleFeux", "next":"11", "Reaction":"1️⃣"}]
+    },
+
+"foret": {
+    "title": "Dans cette forêt dense deux sentiers s'offre à vous, ou aller ?",
+    "image": "http://ekladata.com/gYe-RLkTG_RimRsCMXg1pd2O8FY.jpg",
+    "choices": [
+        {"name": "Gauche ", "value": "<-", "next": {"foret":60,"foretSortie":10,"foretCS":20,"foretCM":10}, "Reaction":"⬅️"},
+        {"name": "Droite", "value": "->", "next":{"foret":60,"foretSortie":10,"foretCS":20,"foretCM":10 }, "Reaction":"➡️"}
+        ]
+    },
+
+
+"foretSortie": {
+    "title": "Voilà la sortie ! Rentrer à la taverne ou bien rentourner dans la forêt ?",
+    "image": "http://ekladata.com/-yvFP3gkvaeWvt6ZppKq4UPLBwQ@673x315.jpg",
+    "choices": [
+        {"name": "Direction taverne ", "value": "_", "next":"11", "Reaction":"1️⃣"},
+        {"name": "Retour dans la forêt", "value": "_", "next":"foret", "Reaction":"2️⃣"}
+        ]
+    },
+
+"foretCS": {
+    "title": "Un Adis vous tombe dessus !",
+    "rewards": {"xp":10, "gold":3},
+    "image": "https://images-ext-2.discordapp.net/external/w0HbvcE2KaQgA5zfPjAlC5tdqOH9y3NdJ0ANcH9ZmZ8/https/i.pinimg.com/originals/13/da/e5/13dae5fd67aaa452680b2f0dc92ddb9a.jpg?width=457&height=676",
+    "mobs": [{"name":"Adis", "max_hp": 100, "hp": 100, "attack": 20, "defense": 1, "initiative": 4, "lvl": 1}],
+    "next":{"foretdrop":40,"foret":60}
+},
+
+"foretCM": {
+    "title": "Vous tombez face à une bande d'Adis !",
+    "rewards": {"xp":20, "gold":2,"loots":{"Item.poissonCru":100}},
+    "image": "https://images-ext-2.discordapp.net/external/w0HbvcE2KaQgA5zfPjAlC5tdqOH9y3NdJ0ANcH9ZmZ8/https/i.pinimg.com/originals/13/da/e5/13dae5fd67aaa452680b2f0dc92ddb9a.jpg?width=457&height=676",
+    "mobs": [{"name":"Maishen", "max_hp": 75, "hp": 75, "attack": 20, "defense": 2, "initiative": 4, "lvl": 1},
+    {"name":"Prauteksion", "max_hp": 75, "hp": 75, "attack": 20, "defense": 2, "initiative": 4, "lvl": 1}],
+    "next":{"foretdrop":80,"foret":20}
+    },
+
+"foretdrop": {
+    "title": "Vous obtenez une racine de Adis, il faudrait la rammener à ElleFeux",
+    "image": "http://ekladata.com/gYe-RLkTG_RimRsCMXg1pd2O8FY.jpg",
+    "choices": [
+        {"name": "Rammasser la racine", "value": "Vous prenez la racine et continuez dans la fôret", "next": "foret", "Reaction":"1️⃣"}
+    ]
+},
+
+
+"11b": {
+    "title": "Morak - Bonsoir mon petit ! Bon écoute tu vois ce lourdo ? J'ai parié 50 pièce d'or que je pouvais le battre au Pierre-Papier-Ciseaux mais je sais pas y jouer donc s'il te plait aide moi ! La mise de départ est de 5 pièces! ",
+    "image": "https://cdnb.artstation.com/p/assets/images/images/021/487/491/large/fanch-leray-taverne44.jpg?1571861481",
+    "choices": [
+        {"name": "Frères d'armes ", "value": " ~Bien sûr mon frère ! On va lui faire les poches !~", "next":"PFC", "Reaction":"1️⃣"},
+        {"name": "Pas le temp", "value": " ~Désolé un prochaine fois peut-être..~ ", "next":"11", "Reaction":"2️⃣"}
+        ]
+    },
+
+"PFC": {
+    "title": "Lourdo - Bon tu es prêt ? C'est en 1 manches. Le permier qui gagne ! Aller, un deux troix pierre feuille... ",
+    "image": "https://img2.freepng.fr/20180401/sqw/kisspng-clash-of-clans-clash-royale-goblin-giant-golem-clash-royal-5ac181c81af3a3.7753071515226311121104.jpg",
+    "choices": [
+        {"name": "Pierre", "value": "_", "next":"PFCE", "Reaction":"👊"},
+        {"name": "Feuille", "value": "_", "next":"PFCG", "Reaction":"✋"},
+        {"name": "Ciseaux", "value": "_", "next":"PFCL", "Reaction":"✌️"}
+        ]
+    },
+
+"PFCG": {
+    "title": "Lourdo - Je choisis Pierre 👊 !...   NNONNNN c'est pas possible ! Viens la canaille !",
+    "image": "https://w7.pngwing.com/pngs/208/240/png-transparent-clash-of-clans-clash-royale-video-game-supercell-clash-of-clans-video-game-elixir-video-thumbnail.png",
+    "choices": [
+        {"name": "Il ne faut pas mettre le yeti en colère! ", "value": "Vous vous défendez face au lourdo", "next":"Lourdo", "Reaction":"1️⃣"}
+        ]
+    },
+
+"PFCL": {
+    "title": "Lourdo - Je choisis Pierre 👊 ! Ahahahah je le savais ! Aller c'est pas grave microbe, la prochaine c'est la bonne.",
+    "image": "https://w7.pngwing.com/pngs/208/240/png-transparent-clash-of-clans-clash-royale-video-game-supercell-clash-of-clans-video-game-elixir-video-thumbnail.png",
+    "choices": [
+        {"name": "Une de perdu...", "value": "Vous retourner au centre de la taverne", "next":"11", "Reaction":"1️⃣"},
+        {"name": "Viens là toi !", "value": "Ca va pas se passer comme ça ! Vous essayez récuperez votre argent de force ! ", "next":"Lourdo", "Reaction":"2️⃣"}
+        ]
+    },
+"PFCE": {
+    "title": "Lourdo - Je choisis Pierre 👊 ! Egalité, bon on recommence et arrête de copier ! ",
+    "image": "https://img2.freepng.fr/20180401/sqw/kisspng-clash-of-clans-clash-royale-goblin-giant-golem-clash-royal-5ac181c81af3a3.7753071515226311121104.jpg",
+    "choices": [
+        {"name": "Pierre", "value": "_", "next":"PFCE", "Reaction":" 👊"},
+        {"name": "Feuille", "value": "_", "next":"PFCG", "Reaction":"✋"},
+        {"name": "Ciseaux", "value": "_", "next":"PFCL", "Reaction":"✌️"}
+        ]
+    },
+
+
+"Lourdo": {
+    "title": " Le lourdo vous agresse, vous essayez de le calmer. !",
+    "image": "https://e7.pngegg.com/pngimages/555/871/png-clipart-clash-of-clans-heroes-battle-boxing-youtube-clash-royale-clash-of-clans-game-hand.png",
+    "rewards": {"xp":100, "gold":3, "loots":{"Item.poissonCru": 100}},
+
+    "mobs": [{"name":"Lourdo", "max_hp": 250, "hp": 250, "attack": 30, "defense": 1, "initiative": 0, "lvl": 1}],
+    "next": "LourdoLoose"
+    },
+
+"LourdoLoose": {
+    "rewards": {"gold":10},
+    "title": "Lourdo - \"Bwarf tien prend le ton argent ...\" \n Morak - \"Merci mon grand on fais moitié moitié ! 10 or pour toi !\"",
+    "image": "https://static1.millenium.org/articles/1/27/78/91/@/177579-astuces-geants-new-article_m-2.jpg",
+    "choices": [
+        {"name": "Il ne sait pas compter ?  ", "value": "Vous retournez à la tavernne ", "next":"11", "Reaction":"1️⃣"}
+        ]
+    },
+
+"11c": {
+    "title": "Rakaye - Tu regardes quoi toi ? Occupe toi de tes affaires minable !",
+    "image": "https://www.supersoluce.com/sites/default/files/node/60138/gobe.png",
+    "choices": [
+        {"name": "Même pas peur ", "value": "Vous foncez sur les malfaiteurs", "next":"11cf", "Reaction":"1️⃣"}
+        ]
+    },
+
+"11cf": {
+    "title": "Vous faites face à trois gnomes",
+    "image": "https://i.ytimg.com/vi/mtgrUd-Pvmc/maxresdefault.jpg",
+    "rewards": {"xp":200, "gold":3, "loots":{"Item.potionHeal": 100}},
+
+    "mobs": [{"name":"Rakaye", "max_hp": 50, "hp": 50, "attack": 10, "defense": 1, "initiative": 4, "lvl": 1}, { "name":"Voihyou", "max_hp": 50, "hp": 50, "attack": 10, "defense": 1, "initiative": 1, "lvl": 3},  {"name":"Trhuen", "max_hp": 200, "hp": 45, "attack": 25, "defense": 0, "initiative": 20, "lvl": 5}],
+    "next" : "11c2"
+    },
+
+"11c2": {
+    "title": "Rakaye - Argghh.. Tu verras on te retrouvera toi !",
+    "image": "https://cdnb.artstation.com/p/assets/images/images/021/487/491/large/fanch-leray-taverne44.jpg?1571861481",
+    "rewards": {"xp":40, "gold":10},
+    "choices": [
+        {"name": "Une bonne chose de faite ", "value": "Une fois les maflaiteurs enfuis, vous retourner à la taverne", "next":"11", "Reaction":"1️⃣"}
+        ]
+    },
+
+"city": {
+    "title": "Vous voici au centre ville que décidez vous de faire ?",
+    "image":"https://cdn.myanimelist.net/s/common/uploaded_files/1444433163-2aafc428098c31d581c987ba1733ff06.jpeg",
+    "choices": [
+        {"name": "Shop", "value": "Permet d'acheter des objets ", "next":"shop", "Reaction":"1️⃣"},
+        {"name": "Menuiserie", "value": " ¤Venez chez Monsieur Kopodeboa, le meilleur endroit pour le bois !¤", "next":"city", "Reaction":"🪵"},
+        {"name": "Repos du guerrier", "value": " Cette fleur bleu vous rends votre énergie ", "next":"respawn", "Reaction":"3️⃣"},
+        {"name": "Le défouloir", "value": "La forêt vous semble le bon endroit pour vous améliorer", "next":"foretCity", "Reaction":"4️⃣"},
+        {"name": "Du nerf !", "value": "Vous décidez de reprendre votre quête", "next":"12", "Reaction":"5️⃣"}
+        ]
+
+},
+
+"respawn": {
+    "title": "Vous croisez une fleur qui scintille et émet une douce lumière bleu. S'arrêter 2 minutes pour se reposer et observer la fleur ?",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "choices": [
+        {"name": "S'arrêter 2 minutes", "value": "La mort est le repos des pauvres. Un vrai guerrier sait quand il doit s'arrêter.", "next": "respawn1", "Reaction":"1️⃣"},
+        {"name": "Le repos c'est pour les vivants", "value": "Vous continuez votre chemin", "next": "city", "Reaction":"2️⃣"}
+        ]},
+"respawn1": {
+    "title": "Vous sentez vos forces qui reviennent en vous...",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "specificities" : ["respawn_point", "healing_point"],
+    "choices": [
+        {"name": "Debout Soldat", "value": "Vous repartez en route pour vos quêtes!", "next": "city", "Reaction":"1️⃣"}
+        ]},
+
+"foretCity": {
+    "title": "Dans cette forêt dense deux sentiers s'offre à vous, ou aller ?",
+    "image": "http://ekladata.com/gYe-RLkTG_RimRsCMXg1pd2O8FY.jpg",
+    "choices": [
+        {"name": "Gauche ", "value": "<-", "next": {"foretCity":50,"foretSortieC":10, "foretCityReward":10, "foretCSC":20,"foretCMC":10}, "Reaction":"⬅️"},
+        {"name": "Droite", "value": "->", "next": {"foretCity":50,"foretSortieC":20,"foretCSC":20,"foretCMC":10 }, "Reaction":"➡️"}
+        ]
+    },
+
+"foretCityReward": {
+    "title": "Vous tombez sur un coffre et récupérez son contenu.",
+    "rewards": {"loots":{"Item.piocheOula":100, "Item.painChaud":50}},
+    "image": "https://i.pinimg.com/originals/1d/9b/c8/1d9bc88ed612b5bb6d5babb2fe87cbcb.jpg",
+    "choices": [
+        {"name": "Vous ouvez le coffre", "value": "_", "next":"foretCity", "Reaction":"1️⃣"}
+        ]
+    },
+
+
+"foretSortieC": {
+    "title": "Voilà la sortie ! Rentrer à la ville ou bien rentourner dans la forêt ?",
+    "image": "http://ekladata.com/-yvFP3gkvaeWvt6ZppKq4UPLBwQ@673x315.jpg",
+    "choices": [
+        {"name": "Direction ville ", "value": "_", "next":"city", "Reaction":"1️⃣"},
+        {"name": "Retour dans la forêt", "value": "_", "next":"foretCity", "Reaction":"2️⃣"}
+        ]
+    },
+
+"foretCSC": {
+    "title": "Un Adis vous tombe dessus !",
+    "rewards": {"xp":50, "gold":1, "loots":{"Item.painChaud": 70}},
+    "image": "https://images-ext-2.discordapp.net/external/w0HbvcE2KaQgA5zfPjAlC5tdqOH9y3NdJ0ANcH9ZmZ8/https/i.pinimg.com/originals/13/da/e5/13dae5fd67aaa452680b2f0dc92ddb9a.jpg?width=457&height=676",
+    "mobs": [{"name":"Adis", "max_hp":100, "hp": 100, "attack": 10, "defense": 1, "initiative": 4, "lvl": 1}],
+    "next":"foretCity"
+},
+
+"foretCMC": {
+    "title": "Vous tombez face à une bande de Adis !",
+    "image": "https://images-ext-2.discordapp.net/external/w0HbvcE2KaQgA5zfPjAlC5tdqOH9y3NdJ0ANcH9ZmZ8/https/i.pinimg.com/originals/13/da/e5/13dae5fd67aaa452680b2f0dc92ddb9a.jpg?width=457&height=676",
+    "rewards": {"xp":100, "gold":2, "loots":{"Item.painChaud": 85}},
+    "mobs": [{"name":"RatCine", "max_hp": 100, "hp": 50, "attack": 10, "defense": 1, "initiative": 4, "lvl": 1},{"name":"Brensheu", "max_hp": 100, "hp": 50, "attack": 10, "defense": 1, "initiative": 4, "lvl": 1}],
+    "next":"foretCity"
+    },
+
+
+"shop": {
+    "title_special": "Vendeur - \"Bienvenu ! Je ne vends que ce qu'il y a de mieux\" \ncharacter.getGold() 🪙",
+    "image":"https://www.dexerto.fr/wp-content/uploads/sites/2/2021/03/easter-egg-league-of-legends.jpg",
+    "choices": [
+        {"name": "Vous achetez une potion de soin 10🪙", "value": "Une potion redonnant 100 point de vie", "next":"shop1", "Reaction":"🥃", "required": {"gold":50}},
+        {"name": "Fin des achats ", "value": "Vous retournez au centre de la ville", "next":"city", "Reaction":"↪️"}
+        ]
+
+},
+
+"shop1": {
+    "title": "Vendeur - \"C'est un plaisir de faire affaire avec toi !\"",
+    "rewards": {"loots":{"Item.potionHeal":100}},
+    "specificities" : [{"gold":-50}],
+    "image":"https://www.dexerto.fr/wp-content/uploads/sites/2/2021/03/easter-egg-league-of-legends.jpg",
+    "choices": [
+        {"name": "Prendre la potion", "value": "Vous avez acheté une potion !", "next":"shop", "Reaction":"1️⃣"}]
+
+},
+
+
+"menuiserie": {
+    "title": "Kopodeboa - \"Bienvenu ! Si tu veux travailler le bois c'est ici ! \"",
+    "image":"https://i.pinimg.com/originals/05/e7/71/05e771f24e3022c2573de290ff13280c.jpg",
+    "choices": [
+        {"name": "Craft", "value": "Construire", "next":"menuiserie", "Reaction":"1️⃣","required": {"gold":30}},
+        {"name": "Acheter bois ", "value": "10 planches de bois pour 10 🪙", "next":"menuiserie1", "Reaction":"2️⃣","required": {"gold":10}},
+        {"name": "Vendre bois", "value": " 10 planches de bois pour 5 🪙", "next":"menuiserie1", "Reaction":"3️⃣"},
+        {"name": "Fin des achats ", "value": "Vous retournez au centre de la ville", "next":"city", "Reaction":"4️⃣"}
+        ]
+
+},
+
+"craft": {
+    "title": "Kopodeboa - \"Bien, un ptit coups par-ci, un atre pas là... Voila ton plastron ! \"",
+    "image":"https://i.pinimg.com/originals/05/e7/71/05e771f24e3022c2573de290ff13280c.jpg",
+    "choices": [
+        {"name": "Merci", "value": "Vous équipez votre plastron", "next":"menuiserie", "Reaction":"🪵"}
+        ]
+
+},
+
+
+
+"menuiserie1": {
+    "title": "Kopodeboa - \"Ahah super! Et la suite ? \"",
+    "image":"https://i.pinimg.com/originals/05/e7/71/05e771f24e3022c2573de290ff13280c.jpg",
+    "choices": [
+        {"name": "Hmmmm", "value": "Vous réfléchissez à quoi faire. ", "next":"menuiserie", "Reaction":"🪵"}]
+
+},
+
+
+"12": {
+    "title": "Sur votre chemin vous tombez sur un théâtre pour enfant, il semble parler de l'histoire du royaume...",
+    "image": "https://previews.123rf.com/images/goodstudio/goodstudio1901/goodstudio190100214/114698887-street-theatre-for-children-with-actors-dressed-in-costumes-performing-play-or-fairytale-in-front-of.jpg",
+    "choices": [
+        {"name": "Des indices sur la pierre ?", "value": "Vous décidez d'écouter afin d'obtenir des informations.", "next":"13", "Reaction":"1️⃣"},
+        {"name": "Pas le temps", "value": "Vous n'avez plus 5 ans et décidez de partir.", "next":"15", "Reaction":"2️⃣"}]
+    },
+
+"13": {
+    "title": "Il y a 3000 ans, 3 druides fondèrent 3 royaumes à l'aide de pierre magiques. Tous vécurent heureux dans un environnement prospère. La tyrannie des hommes fit fuir les druides emportant avec eux les pierres et la paix des royaumes. Cependant, une prophétie vis le jour. Un homme descendant d'une des druides, née d'une femme du courage et d'un père de la force et élevé au sein du royaume de l'esprit pourrais manier les pierres et en tirer le plein pouvoir. Mais le pouvoir des pierres étant trop dangereux, les royaumes décidèrent de procéder à une purge afin de laver les royaumes de tous les descendants des druides afin d'éviter une telle catastrophe. Et c'est grace à cela les enfants, qu'aujourd'hui, nous vivons tous en paix !\n A la suite de l'histoire, vous apercevez un homme qui semble en colère.",
+    "image": "https://previews.123rf.com/images/goodstudio/goodstudio1901/goodstudio190100214/114698887-street-theatre-for-children-with-actors-dressed-in-costumes-performing-play-or-fairytale-in-front-of.jpg",
+    "choices": [
+        {"name": "**Cette histoire sent le roussi..**", "value": "Vous décidez d'aller lui parler de ce qu'il viens de se passer.", "next":"14", "Reaction":"1️⃣"},
+        {"name": "**J'adore les histoires**", "value": "Vous sortez votre pouce de votre bouche et décidez de retourner à la recherche des pierres.", "next":"15", "Reaction":"2️⃣"}]
+    },
+
+"14": {
+    "title": "Cet homme furieux se tourne vers vous et vous beugle: \nHommeEnColère-Il ne faut pas croire ces sottises ! Ils osent déformer l'histoire de notre royaume ! Après la fuite des druides, ces sauvages du royaume de la force ont décidé d'envahir les deux autres royaumes. Alors bien sûr, pour ne pas déclencher de guerre, ils ont simplement mis l'un des leurs à la place de notre général. Il exécute les ordres donnés par son royaume et a pris la place du roi! Ce dernier n'a plus aucun pouvoir... Il fait juste acte de présence. C'est à s'en cogner la tête. Si l'homme de la prophétie pouvait revenir à la vie et nous sauver de cette tyrannie...",
+    "image": "https://i.pinimg.com/originals/5d/54/ff/5d54ff7995d37f4d5975a90c4f95cd1d.jpg",
+    "choices": [
+        {"name": "**Un homme effrayant**", "value": "Afin de ne pas finir noyé par les postillons, vous décidez de retourner à vos occupations.", "next":"15", "Reaction":"1️⃣"}]
+},
+
+
+"15": {
+    "title": "Sur le chemin retour, une dame affolée vous attrape le bras, dans la panique vous arrivez a déchiffrer quelques mots: \n ???- S'il vous plaît... mon fils ... à l'ouest du royaume...",
+    "image": "https://cathykuzel.com/wp-content/uploads/2016/08/Scared-Blonde-lady-cartoon.jpg",
+    "choices": [
+        {"name": "**Un début d'aventure**", "value": "Vous décidez de partir vers l'ouest du royaume où semble s'être perdu son fils. Vous y trouverez sûrement des informations sur la pierre.", "next":"16", "Reaction":"1️⃣"}]
+    },
+
+"16": {
+    "title": "En direction de l'ouest, vous demandez des informations aux inconnus sur place à propos du gamin. \n???-Moi s'est Gork le chef de la tribu des alphas . Un enfant ?? Oui je l'ai vu mais je ne te dirais pas où ! Sauf si tu arrives à battre mon équipe de guerriers!",
+    "image": "https://i.pinimg.com/originals/77/50/52/7750524eb6ba438fa1782d357e27004d.jpg",
+    "choices": [
+        {"name": "**Règlement de compte**", "value": "Combattre !", "next":"17", "Reaction":"1️⃣"}]
+    },
+
+"17": {
+    "title": "Vous faites face au Grok et son équipe de larbins !",
+    "image": "https://i.pinimg.com/originals/3b/3f/c3/3b3fc3b304539edc80f3724c57b0cb5e.png",
+    "mobs": [{"name":"Grok", "max_hp": 100, "hp": 100, "attack": 35, "defense": 10, "initiative": 4, "lvl": 1}, { "name":"Larbin 1", "max_hp": 50, "hp": 50, "attack": 20, "defense": 0, "initiative": 1, "lvl": 3},  {"name":"Larbin 2", "max_hp": 50, "hp": 50, "attack": 20, "defense": 0, "initiative": 1, "lvl": 3}, {"name":"Larbin 3", "max_hp": 50, "hp": 50, "attack": 20, "defense": 0, "initiative": 1, "lvl": 3}],
+    "next" : "18"
+    },
+
+"18": {
+    "title": "Grok- Aieee... t'as eu de la chance! Il est parti en direction du pont ton gamin! Il poursuivait comme une sorte de papillon..",
+    "image": "https://i.pinimg.com/originals/69/6d/c0/696dc01b790d07dfcb0857e3a5315e02.jpg",
+    "rewards": {"xp":100, "gold":3, "loots":{"Item.potionHeal": 100}},
+    "choices": [
+        {"name": "En route pour le pont", "value": "Vous décidez de partir vers le pont où semble être perdu le gamin", "next":"18respawn", "Reaction":"1️⃣"}]
+    },
+
+"18respawn": {
+    "title": "Vous croisez une fleur qui scintille et émet une douce lumière bleu. S'arrêter 2 minutes pour se reposer et observer la fleur ?",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "specificities" : ["respawn_point"],
+    "choices": [
+        {"name": "S'arrêter 2 minutes", "value": "La mort est le repos des pauvres. Un vrai guerrier sait quand il doit s'arrêter.", "next": "18respawn1", "Reaction":"1️⃣"},
+        {"name": "Le repos c'est pour les vivants", "value": "Vous continuez votre chemin", "next": "19", "Reaction":"2️⃣"}
+        ]},
+"18respawn1": {
+    "title": "Vous sentez vos forces qui reviennent en vous...",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "specificities" : ["respawn_point", "healing_point"],
+    "choices": [
+        {"name": "Debout Soldat", "value": "Vous repartez en route pour vos quêtes!", "next": "19", "Reaction":"1️⃣"}
+        ]},
+
+
+    "19": {
+    "title": "Deux gardes qui protègent l'entrée du pont vous arrêtent. \nGardes - \"Halte là ! Tu ne devrais pas aller ici, c'est super dangereux ! Fais demi-tour crevette. Cet endroit est rempli de pièges et de personnes n'en est revenue vivant !\"",
+    "image": "https://static.wikia.nocookie.net/barovia/images/0/0b/Garde_de_Barovia_2.png/revision/latest?cb=20201030120744&path-prefix=fr",
+    "choices": [
+        {"name": "C'est moi qu'il traite de crevette?", "value": "Vous insistez en prônant le fait que vous êtes envoyé par le général Guillaume pour trouver des informations sur la pierre.", "next":"20", "Reaction":"1️⃣"}]
+    },
+
+"20": {
+    "title": "Gardes - \"C'est à tes risques et périls ! Si tu ne trouves pas ce que tu cherches personne ne viendra t'aider!\"\nSe dresse devant vous un pont. Tout semble normal jusqu'au moment où vous décidez d'avancer d'un pas.\nFshhhhhhhh\nUne flèche vous passe juste au-dessus de la tête. Le pont est piégé ! Il faut marcher sur les bonnes planches afin de ne pas prendre de flèche !",
+    "image": "https://thumbs.dreamstime.com/b/old-wooden-bridge-patches-13903459.jpg",
+    "choices": [
+        {"name": "Dialogue suivant", "value": "Suite", "next":"bridge", "Reaction":"1️⃣"}]
+    },
+"bridge": {
+    "title": "Vous êtes sur le pont. Sur quelle planche marcher ?",
+    "image": "https://thumbs.dreamstime.com/b/old-wooden-bridge-patches-13903459.jpg",
+    "choices": [
+        {"name": "Planche la plus proche", "value": "Suite", "next":{"bridge1":40, "bridgeDMG":50,"bridgeFall":10}, "Reaction":"1️⃣"},
+        {"name": "Deuxième planche", "value": "Suite", "next":{"bridge1":40, "bridgeDMG":50,"bridgeFall":10}, "Reaction":"2️⃣"},
+        {"name": "Troisième planche", "value": "Suite", "next":{"bridge1":40, "bridgeDMG":50,"bridgeFall":10}, "Reaction":"3️⃣"}]
+    },
+"bridge1": {
+    "title": "Vous êtes sur le pont. Sur quelle planche marcher ?",
+    "image": "https://thumbs.dreamstime.com/b/old-wooden-bridge-patches-13903459.jpg",
+    "choices": [
+        {"name": "Planche la plus proche", "value": "Suite", "next":{"bridge2":40, "bridgeDMG1":50,"bridgeFall":10}, "Reaction":"1️⃣"},
+        {"name": "Deuxième planche", "value": "Suite", "next":{"bridge2":40, "bridgeDMG1":50,"bridgeFall":10}, "Reaction":"2️⃣"},
+        {"name": "Troisième planche", "value": "Suite", "next":{"bridge2":40, "bridgeDMG1":50,"bridgeFall":10}, "Reaction":"3️⃣"}]
+    },
+"bridge2": {
+    "title": "Vous êtes sur le pont. Sur quelle planche marcher ?",
+    "image": "https://thumbs.dreamstime.com/b/old-wooden-bridge-patches-13903459.jpg",
+    "choices": [
+        {"name": "Planche la plus proche", "value": "Suite", "next":{"bridge3":40, "bridgeDMG2":50,"bridgeFall":10}, "Reaction":"1️⃣"},
+        {"name": "Deuxième planche", "value": "Suite", "next":{"bridge3":40, "bridgeDMG2":50,"bridgeFall":10}, "Reaction":"2️⃣"},
+        {"name": "Troisième planche", "value": "Suite", "next":{"bridge3":40, "bridgeDMG2":50,"bridgeFall":10}, "Reaction":"3️⃣"}]
+    },
+"bridge3": {
+    "title": "Vous êtes sur le pont. Sur quelle planche marcher ?",
+    "image": "https://thumbs.dreamstime.com/b/old-wooden-bridge-patches-13903459.jpg",
+    "choices": [
+        {"name": "Planche la plus proche", "value": "Suite", "next":{"21":40, "bridgeDMG3":50,"bridgeFall":10}, "Reaction":"1️⃣"},
+        {"name": "Deuxième planche", "value": "Suite", "next":{"21":40, "bridgeDMG3":50,"bridgeFall":10}, "Reaction":"2️⃣"},
+        {"name": "Troisième planche", "value": "Suite", "next":{"21":40, "bridgeDMG3":50,"bridgeFall":10}, "Reaction":"3️⃣"}]
+    },
+
+"bridgeDMG": {
+    "title": "Fshhhhh! Ouch ! Vous prenez une flèche dans l'épaule ! -10 ❤️ ",
+    "image": "https://static.wikia.nocookie.net/hero-tale-idle-rpg/images/1/11/Bone_Arrow_icon.png/revision/latest/top-crop/width/360/height/450?cb=20210711115913",
+    "specificities" : [{"hp":-10}],
+    "choices": [
+        {"name": "Attention à la marche !", "value": "Vous continuez sur le pont.", "next":"bridge", "Reaction":"1️⃣"}]
+    },
+"bridgeDMG1": {
+    "title": "Fshhhhh! Ouch ! Vous prenez une flèche dans l'épaule ! -10 ❤️ ",
+    "image": "https://static.wikia.nocookie.net/hero-tale-idle-rpg/images/1/11/Bone_Arrow_icon.png/revision/latest/top-crop/width/360/height/450?cb=20210711115913",
+    "specificities" : [{"hp":-10}],
+    "choices": [
+        {"name": "Attention à la marche !", "value": "Vous continuez sur le pont.", "next":"bridge1", "Reaction":"1️⃣"}]
+    },
+"bridgeDMG2": {
+    "title": "Fshhhhh! Ouch ! Vous prenez une flèche dans l'épaule ! -10 ❤️ ",
+    "image": "https://static.wikia.nocookie.net/hero-tale-idle-rpg/images/1/11/Bone_Arrow_icon.png/revision/latest/top-crop/width/360/height/450?cb=20210711115913",
+    "specificities" : [{"hp":-10}],
+    "choices": [
+        {"name": "Attention à la marche !", "value": "Vous continuez sur le pont.", "next":"bridge2", "Reaction":"1️⃣"}]
+    },
+"bridgeDMG3": {
+    "title": "Fshhhhh! Ouch ! Vous prenez une flèche dans l'épaule ! -10 ❤️ ",
+    "image": "https://static.wikia.nocookie.net/hero-tale-idle-rpg/images/1/11/Bone_Arrow_icon.png/revision/latest/top-crop/width/360/height/450?cb=20210711115913",
+    "specificities" : [{"hp":-10}],
+    "choices": [
+        {"name": "Attention à la marche !", "value": "Vous continuez sur le pont.", "next":"bridge3", "Reaction":"1️⃣"}]
+    },
+
+"bridgeFall": {
+    "title": "Waaaaaaaaa!! Une planche pourris! Vous tombez au fond du trou ",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bT4wWNbFxQhPAeqLsV19XiA0o9ba8oAtKg&usqp=CAU",
+    "specificities" : ["death"],
+    "choices": [
+        {"name": "On flotte tous en bas", "value": "....", "next":"?", "Reaction":"1️⃣"}]
+    },
+
+
+
+
+
+"21": {
+    "title": "Pfiou, vous arrivez au bout ! La nature ici a repris ses droits et l'herbe cache la vue. Mais vous distinguez un panneau avec un symbole bizarre. Il est écrit \"Grotte\" dessus. Il y a de fortes chances que l'enfant se soit perdu là-bas ! \nVous marchez en direction de la grotte. Sur le chemin, vous apercevez du raffut: ",
+    "image": "https://www.micromania.fr/dw/image/v2/BCRB_PRD/on/demandware.static/-/Sites-masterCatalog_Micromania/default/dw45adf48c/images/high-res/150377_scrmax.jpg?sw=480&sh=480&sm=fit",
+    "choices": [
+        {"name": "Le héro", "value": "Une vieille dame se fais agresser par deux monstres, il faut lui venir en aide!", "next":"21a", "Reaction":"1️⃣"},
+        {"name": "Un seul objectif", "value": "Des panneaux indiquants une grotte, vous êtes sur le bon chemin !", "next":"22", "Reaction":"2️⃣"}]
+    },
+
+"21a": {
+    "title": "Les monstres vous attaquent !",
+    "image": "https://2e.aonprd.com/Images/Monsters/DeepGnome_DeepGnomeScout.png?AspxAutoDetectCookieSupport=1",
+    "mobs": [{ "name":"VolHeur DeSakam 1 ", "max_hp": 100, "hp": 100, "attack": 15, "defense": 1, "initiative": 4, "lvl": 4},{ "name":"Canne Ail", "max_hp": 100, "hp": 100, "attack": 15, "defense": 1, "initiative": 4, "lvl": 4}],
+    "next":"21b"
+    },
+
+"21b": {
+    "title": "Vieille Dame - \"Merci mon enfant ! Tien j'espère que ça te sera utile ! Et n'oublie pas, écouter les gens peut toujours s'avéré bénéfique !\"",
+    "image": "https://media.discordapp.net/attachments/982356805978046504/982613838035841024/karolina-jedrzejak-2_2.jpg?width=473&height=676",
+    "rewards": {"xp":300, "gold":10},
+    "choices": [
+        {"name": "Suite", "value": "Vous remerciez la dame et continuez votre chemin", "next":"22", "Reaction":"1️⃣"}]
+    },
+
+
+
+
+
+"22": {
+    "title": "Devant vous se dresse 3 sentiers. Trois symboles ont été mal adroitement déssiné devant chaque sentier. Lequel décidez-vous d'emprunter ?",
+    "image": "https://media.discordapp.net/attachments/982356805978046504/982609796408705054/unknown.png",
+    "choices": [
+        {"name": "Sentier 1", "value": "Peux être celui-ci ?", "next":"fallChoice", "Reaction":"1️⃣"},
+        {"name": "Sentier 2", "value": "On dirait ... une abeille ???", "next":"bear", "Reaction":"2️⃣"},
+        {"name": "Sentier 2", "value": "Ou bien celui-ci", "next":"23", "Reaction":"3️⃣"}]
+    },
+"fallChoice": {
+    "title": "Ouahhhh! Vous tombez dans un trou remplis de lames!",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bT4wWNbFxQhPAeqLsV19XiA0o9ba8oAtKg&usqp=CAU",
+    "choices": [
+        {"name": "Dialogue suivant", "value": "Dialogue suivant", "next":"death", "Reaction":"1️⃣"}]
+    },
+"bear": {
+    "title": "Un ours enragé vous saute dessus !",
+    "image": "https://c.tenor.com/17wm3O05ym4AAAAM/happy-winnie-the-pooh.gif",
+    "mobs": [{"name":"Ours En Colère", "max_hp": 500, "hp": 500, "attack": 50, "defense": 0, "initiative": 4, "lvl": 5}],
+    "rewards": {"xp":666, "loots":{"Item.poissonCru":100}},
+    "next":"22"
+    },
+"23": {
+    "title": "Bonne pioche ! \nVous vous trouvez enfin face à la grotte ! Un vieil homme perdu semble marmonner quelque chose:",
+    "image": "https://cdna.artstation.com/p/assets/images/images/000/928/834/large/ferrari-jr-llamzon-old-man-final.jpg?1436347042",
+    "choices": [
+        {"name": "Une oreille attentive", "value": "Vous écoutez ce que dit le vieil homme", "next":"24", "Reaction":"1️⃣"},
+        {"name": "Comment est-il encore en vie..", "value": "Vous vous méfiez et passez votre chemin", "next":"swampRev", "Reaction":"2️⃣"}
+        ]
+    },
+"24": {
+    "title": "Vieil Homme - \"🎵***Haut*** rage! ***Haut*** désespoir! ***Haut*** vieillesse ennemie! N'ai-je donc tant vécu que pour cette infamie?🎵 C'est mala***droit*** mais mère-grand me louait ce genre de tirade...\" ",
+    "image": "https://cdna.artstation.com/p/assets/images/images/000/928/834/large/ferrari-jr-llamzon-old-man-final.jpg?1436347042",
+    "choices": [
+        {"name": "De la suite dans les idées", "value": "Vous continuez vers la grotte", "next":"swampRev", "Reaction":"1️⃣"}
+        ]
+    },
+
+
+
+"swampRev": {
+    "title": "Vous croisez une fleur qui scintille et émet une douce lumière bleu. S'arrêter 2 minutes pour se reposer et observer la fleur ?",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "choices": [
+        {"name": "S'arrêter 2 minutes", "value": "La mort est le repos des pauvres. Un vrai guerrier sait quand il doit s'arrêter.", "next": "swampRes", "Reaction":"1️⃣", "timer": 120}
+    ]
+},
+
+"swampRes": {
+    "title": "Vous sentez vos forces qui reviennent en vous...",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "specificities" : ["respawn_point", "healing_point"],
+    "choices": [
+        {"name": "Debout Soldat", "value": "Après cette aventure vous continuez votre chemin.", "next": "swamp", "Reaction":"1️⃣", "timer": 15}
+    ]
+},
+
+"swamp": {
+    "title": "Vous tombez sur un marécage, un bon moyen d'acquerrir de l'expérience !",
+    "image": "https://i.pinimg.com/564x/0a/6b/8b/0a6b8bd3fa5495a4d6e3a6eb273327e1.jpg",
+    "choices": [
+        {"name": "Gauche ", "value": "<-", "next": {"swamp":40,"swampExit":20,"swampFight":30,"swampStuck":10},"Reaction":"⬅️"},
+        {"name": "Droite", "value": "->", "next":{"swamp":40,"swampExit":20,"swampFight":30,"swampStuck":10},"Reaction":"➡️"}
+        ]
+    },
+
+"swampExit": {
+    "title": "La sortie, retourner dans le marrais ?",
+    "image": "http://ekladata.com/-yvFP3gkvaeWvt6ZppKq4UPLBwQ@673x315.jpg",
+    "choices": [
+        {"name": "Retourner dans le marrais", "value": "_", "next":"swamp", "Reaction":"1️⃣"},
+        {"name": "Suite de la quête", "value": "_", "next":"25", "Reaction":"2️⃣"}
+        ]
+    },
+
+"swampFight": {
+    "title": "Vous tombez contre un esprit du marais",
+    "rewards": {"xp":100},
+    "image": "https://i.pinimg.com/originals/28/f5/b7/28f5b712c184c9d4680d12863c6991a3.jpg",
+    "mobs": [{"name":"SakDebou", "max_hp": 300, "hp": 300, "attack": 30, "defense": 15, "initiative": 4, "lvl": 1}],
+    "next":"swamp"
+},
+
+"swampStuck": {
+    "title": "Vous êtes bloqué dans la boue ! Vous vous débattez pour sortir..",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSklIKFC9KWFhxMa-FsEwILZjS2ih1z0iFPIA&usqp=CAU",
+    "choices": [
+        {"name": "Continuer", "value": "_", "next":"swamp", "Reaction":"1️⃣","timer":10}
+        ]
+    },
+
+"25": {
+    "title": "Vous vous trouvez enfin face à la grotte!",
+    "image": "https://i.pinimg.com/originals/05/cf/11/05cf1122bfc993eb6804d428036767e7.jpg",
+    "choices": [
+        {"name": "De la suite dans les idées", "value": "Vous continuez vers la grotte", "next":"25,5", "Reaction":"1️⃣"}
+
+        ]
+    },
+"25,5": {
+    "title": "Vous entrez dans la grotte mais... c'est un vrai labyrinthe ! Quel chemin prendre ?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgN3B45pZok9sXkY5MyEPVcPrLZ2omd1ezg3KeY1e6VSDWBWVRLDHN2-3WeADFE2fDk4&usqp=CAU",
+    "choices": [
+        {"name": "Haut", "value": "⬆️", "next":"maze1", "Reaction":"⬆️"},
+        {"name": "Bas", "value": "⬇️", "next":"26", "Reaction":"⬇️"},
+        {"name": "Gauche", "value": "⬅️", "next":"26", "Reaction":"⬅️"},
+        {"name": "Droite", "value": "➡️", "next":"26", "Reaction":"➡️"}
+        ]
+    },
+
+"maze1": {
+    "title": "Où aller ensuite ?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgN3B45pZok9sXkY5MyEPVcPrLZ2omd1ezg3KeY1e6VSDWBWVRLDHN2-3WeADFE2fDk4&usqp=CAU",
+    "choices": [
+        {"name": "Haut", "value": "⬆️", "next":"maze2", "Reaction":"⬆️"},
+        {"name": "Bas", "value": "⬇️", "next":"27", "Reaction":"⬇️"},
+        {"name": "Gauche", "value": "⬅️", "next":"27", "Reaction":"⬅️"},
+        {"name": "Droite", "value": "➡️", "next":"27", "Reaction":"➡️"}
+        ]
+    },
+"maze2": {
+    "title": "Où aller ensuite ?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgN3B45pZok9sXkY5MyEPVcPrLZ2omd1ezg3KeY1e6VSDWBWVRLDHN2-3WeADFE2fDk4&usqp=CAU",
+    "choices": [
+        {"name": "Haut", "value": "⬆️", "next":"maze3", "Reaction":"⬆️"},
+        {"name": "Bas", "value": "⬇️", "next":"28", "Reaction":"⬇️"},
+        {"name": "Gauche", "value": "⬅️", "next":"28", "Reaction":"⬅️"},
+        {"name": "Droite", "value": "➡️", "next":"28", "Reaction":"➡️"}
+        ]
+    },
+"maze3": {
+    "title": "Où aller ensuite ?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgN3B45pZok9sXkY5MyEPVcPrLZ2omd1ezg3KeY1e6VSDWBWVRLDHN2-3WeADFE2fDk4&usqp=CAU",
+    "choices": [
+        {"name": "Haut", "value": "⬆️", "next":"29", "Reaction":"⬆️"},
+        {"name": "Bas", "value": "⬇️", "next":"29", "Reaction":"⬇️"},
+        {"name": "Gauche", "value": "⬅️", "next":"29", "Reaction":"⬅️"},
+        {"name": "Droite", "value": "➡️", "next":"mazeEnd", "Reaction":"➡️"}
+        ]
+    },
+"26": {
+    "title": "Où aller ensuite ?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgN3B45pZok9sXkY5MyEPVcPrLZ2omd1ezg3KeY1e6VSDWBWVRLDHN2-3WeADFE2fDk4&usqp=CAU",
+    "choices": [
+        {"name": "Haut", "value": "⬆️", "next":"27", "Reaction":"⬆️"},
+        {"name": "Bas", "value": "⬇️", "next":"27", "Reaction":"⬇️"},
+        {"name": "Gauche", "value": "⬅️", "next":"27", "Reaction":"⬅️"},
+        {"name": "Droite", "value": "➡️", "next":"27", "Reaction":"➡️"}
+        ]
+    },
+"27": {
+    "title": "Où aller ensuite ?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgN3B45pZok9sXkY5MyEPVcPrLZ2omd1ezg3KeY1e6VSDWBWVRLDHN2-3WeADFE2fDk4&usqp=CAU",
+    "choices": [
+        {"name": "Haut", "value": "⬆️", "next":"28", "Reaction":"⬆️"},
+        {"name": "Bas", "value": "⬇️", "next":"28", "Reaction":"⬇️"},
+        {"name": "Gauche", "value": "⬅️", "next":"28", "Reaction":"⬅️"},
+        {"name": "Droite", "value": "➡️", "next":"28", "Reaction":"➡️"}
+        ]
+    },
+"28": {
+    "title": "Où aller ensuite ?",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgN3B45pZok9sXkY5MyEPVcPrLZ2omd1ezg3KeY1e6VSDWBWVRLDHN2-3WeADFE2fDk4&usqp=CAU",
+    "choices": [
+        {"name": "Haut", "value": "⬆️", "next":"29", "Reaction":"⬆️"},
+        {"name": "Bas", "value": "⬇️", "next":"29", "Reaction":"⬇️"},
+        {"name": "Gauche", "value": "⬅️", "next":"29", "Reaction":"⬅️"},
+        {"name": "Droite", "value": "➡️", "next":"29", "Reaction":"➡️"}
+        ]
+    },
+"29": {
+    "title": "Mauvais chemin ! Une gargouille plante ses griffes dans votre dos vous infligeant -10❤️ et vous jette à l'entrée du labyrinthe.",
+    "image": "https://www.dungeonsolvers.com/wp-content/uploads/2019/01/gargoyle_greebo_by_albe75_d824tj4-pre.jpg",
+    "specificities" : [{"hp":-30}],
+    "choices": [
+        {"name": "Retour à la case départ", "value": "Vous retournez à l'entrées de la grotte...", "next":"25,5", "Reaction":"1️⃣"}
+        ]
+    },
+
+"mazeEnd": {
+    "title": "Vous entrez dans une pièce iluminée d'un bleu resplendissant. C'est le coeur de la grotte où se situe la pierre! Au fond de la pièce, terrorisé, l'enfant semble préocupé par quelque chose:\nGamin -  \"Attention... le monstre...il va revenir...\"",
+    "image": "https://i.ytimg.com/vi/i94BOiRbqDU/maxresdefault.jpg",
+    "choices": [
+        {"name": "Dialogue suivant", "value": "...", "next":"mazeFlower", "Reaction":"1️⃣"}
+        ]
+    },
+
+
+"mazeFlower": {
+    "title": "Par terre vous trouvez une fleur scintillant d'une lumière bleu écarlate. S'arrêter 2 minutes pour se reposer et observer la fleur ?",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "choices": [
+        {"name": "S'arrêter 2 minutes", "value": "La mort est le repos des pauvres. Un vrai guerrier sait quand il doit s'arrêter.", "next": "mazeRes", "Reaction":"1️⃣", "timer": 120}
+    ]
+},
+
+"mazeRes": {
+    "title": "Vous sentez vos forces qui reviennent en vous...",
+    "image": "https://www.wallpaperup.com/uploads/wallpapers/2015/03/14/637602/c50735d520a83b552adc89ade3b0a17e-700.jpg",
+    "specificities" : ["respawn_point", "healing_point"],
+    "choices": [
+        {"name": "Debout Soldat", "value": "Vous continuez votre quête.", "next": "30a", "Reaction":"1️⃣", "timer": 15}
+    ]
+},
+
+"30a": {
+    "title": "Deux chemins s'offrent à vous, le premier semble revenir vers le marais, l'autre semble sombre",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/16/59/25/75/blue-cave-croatia.jpg",
+    "choices": [
+        {"name": "Retourner au marais", "value": "Vous retournez au marais", "next": "swamp", "Reaction":"1️⃣", "timer": 15},
+        {"name": "Choisir le danger !", "value": "Vous prenez votre courrage à deux mains", "next": "30", "Reaction":"2️⃣", "timer": 15}
+    ]
+},
+
+"30": {
+    "title": "La pierre se met à s'illuminer. L'esprit de la pierre se matérialise et une gigantesque gargouille s'interpose entre vous et la pierre, elle semble vouloir la défendre !",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/16/59/25/75/blue-cave-croatia.jpg",
+    "choices": [
+        {"name": "À l'attaque!!!", "value": "Vous attaquez le monstre.", "next":"31", "Reaction":"1️⃣"}
+        ]
+    },
+
+"31": {
+    "title": "Vous combattez l'esprit de la pierre",
+    "image": "https://media.discordapp.net/attachments/476873777796349953/983508358747283466/unknown.png",
+    "mobs": [{"name":"Garre Gouhye", "max_hp": 1000, "hp": 1000, "attack": 70, "defense": 30, "initiative": 4, "lvl": 1}],
+    "timeline":["None", "None", "None", "Déflagration", "None", "Concentration","None", "Déflagration", "None", "None", {"Déflagration":50, "Concentration":50}, "None", "None", {"Déflagration":50, "Concentration":50}, "None", "None", "Déflagration", "Concentration", "None", "None", "None", "None", "Colère suprême"],
+    "next":"32"
+    },
+
+"Déflagration": {
+    "special_fight_event":"31",
+    "title": "Le boss commence à incanter **Déflagration**\nque faites vous ?",
+    "image": "https://media.discordapp.net/attachments/476873777796349953/983508358747283466/unknown.png",
+    "choices": [
+        {"name": "Attaquer", "value": "Vous continuer à attaquer", "next":"Déflagration_death", "Reaction":"1️⃣"},
+        {"name": "Se cacher", "value": "Vous vous cacher derrière un rocher", "next":"31", "Reaction":"2️⃣"}
+        ]
+    },
+
+"Concentration": {
+    "special_fight_event":"31",
+    "title": "Le boss commence à incanter **Concentration**\nque faites vous ?",
+    "image": "https://media.discordapp.net/attachments/476873777796349953/983508358747283466/unknown.png",
+    "choices": [
+        {"name": "Attaquer", "value": "Vous continuer à attaquer", "next":"31", "Reaction":"1️⃣"},
+        {"name": "Se cacher", "value": "Vous vous cacher derrière un rocher", "next":"Concentration_death", "Reaction":"2️⃣"}
+        ]
+    },
+
+"Colère suprême": {
+    "special_fight_event":"31",
+    "specificities" : ["death"],
+    "title": "Le boss entre dans une **Colère suprême**",
+    "image": "https://media.discordapp.net/attachments/476873777796349953/983508358747283466/unknown.png",
+    "choices": [
+        {"name": "L'ennemi vous fonce dessus", "value": "Aucune chance de s'en sortir !", "next":"?", "Reaction":"1️⃣"}
+        ]
+    },
+
+"Déflagration_death": {
+    "special_fight_event":"31",
+    "specificities" : ["death"],
+    "title": "Vous recevez les dégâts de la **Déflagration**",
+    "image": "https://media.discordapp.net/attachments/476873777796349953/983508358747283466/unknown.png",
+    "choices": [
+        {"name": "La chaleur est insoutenable", "value": "Aucune chance de s'en sortir !", "next":"?", "Reaction":"1️⃣"}
+        ]
+},
+
+"Concentration": {
+    "special_fight_event":"31",
+    "specificities" : ["death"],
+    "title": "Le boss fini sa **Concentration** et effectue une attaque destructrice",
+    "image": "https://media.discordapp.net/attachments/476873777796349953/983508358747283466/unknown.png",
+    "choices": [
+        {"name": "La douleur est atroce", "value": "Aucune chance de s'en sortir !", "next":"?", "Reaction":"1️⃣"}
+        ]
+},
+
+"32": {
+    "title": "Vous avez vaincu la gargouille! La lumière bleue disparaît pour laisser place à une faible lueur bleue. Vous décidez de prendre la pierre dont la lueur s'intensifie à votre contact. \nGamin - \"J-J-J-Je veux voir ma maman !!\"\nSuite à toute ces épreuves vous rentrez au chateaux afin de ramener le gamin.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBWcVc-e7emf6ZV_aZvjdCP69BX_LiFldFQ&usqp=CAU",
+    "rewards": {"xp":1000, "gold":10},
+    "choices": [
+        {"name": "Direction chateaux", "value": "Vous attrapez le bras de l'enfant et le ramenez au chateaux", "next":"33", "Reaction":"1️⃣"}
+        ]
+    },
+
+"33": {
+    "title": "Mère Du Gamin - Merci infiniment ! Je ne sais pas ce que j'aurais fait si j'avais perdu mon enfant!\nVous allez voir le général afin de ramener la pierre que vous venez de trouver!Guillaume - \"Bravo microbe ! Tu as réussi à trouver la première pierre! Ne t'arrête pas en si bon chemin ! Au nord du royaume, tu trouveras une forêt qui mène royaume du courage. Va et ramène moi...hmmm ... Ramène-nous la pierre du Courage!\"",
+    "image": "https://i.pinimg.com/originals/45/69/8c/45698cac624bda15e344ab3276f36050.jpg",
+    "rewards": {"xp":2000, "gold":20},
+    "choices": [
+        {"name": "Fin arc 1", "value": "Merci d'avoir jouer au jeux", "next":"tittleScreen", "Reaction":"1️⃣"}
+        ]
+    },
+
+"tittleScreen": {
+    "title": "Vous avez finis le jeu",
+    "image": "https://media.discordapp.net/attachments/476873777796349953/983511575329640458/unknown.png?width=1440&height=558",
+    "choices": [
+        {"name": "Woaw", "value": "Let's gooo", "next":"tittleScreen", "Reaction":"1️⃣"}
+        ]
+    },
+
+"death": {
+    "title": "Vous êtes mort",
+    "image": "https://i.pinimg.com/originals/54/5d/e0/545de0f7779503d06946fd157441010f.png",
+    "choices": [{"name": "Vos forces quittent votre corps..", "value": "...", "next":"revive", "Reaction":"1️⃣"}
+        ]},
+"revive": {
+    "title": "??? - \" Non il est trop tôt, ton heure n'est pas venue...\"",
+    "image": "http://pm1.narvii.com/7003/d7c6e541597035092857f8003bcc49816b858be1r1-511-645v2_uhq.jpg",
+    "choices": [{"name": "Une voix familière", "value": "*Votre corps se mouvois dans un calme pesant...*", "next":"?", "Reaction":"1️⃣"}
+        ]},
+
+"selector": {
+    "title": "?",
+    "image": "?",
+    "choices": "?"
+},
+
+"rewards": {
+    "title": "?",
+    "image": "?",
+    "choices": [
+        {"name": "Suite", "value": "Suite", "next":"?", "Reaction":"1️⃣"}
+    ] 
+}
+
+}  
